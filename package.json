@@ -1,0 +1,22 @@
+{
+    "name": "telegram-avatar",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "start:dev": "nodemon index.js",
+        "start": "node index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^16.0.1",
+        "express": "^4.18.1",
+        "input": "^1.0.1",
+        "telegram": "^2.8.4"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.19"
+    }
+}
